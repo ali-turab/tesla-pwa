@@ -424,6 +424,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular/pwa@npm:^21.2.29":
+  version: 21.2.29
+  resolution: "@angular/pwa@npm:21.2.29"
+  dependencies:
+    "@angular-devkit/schematics": "npm:21.2.29"
+    "@schematics/angular": "npm:21.2.29"
+    parse5-html-rewriting-stream: "npm:8.0.0"
+  peerDependencies:
+    "@angular/cli": ^21.2.29
+  peerDependenciesMeta:
+    "@angular/cli":
+      optional: true
+  checksum: 10c0/72c03c82f2bfbe66c76f0a8804815e664edc78f0ea4ccb05d9241681571348409973a1f67ae6957bf226de54073bb406985b80e0d346a4079de1f706679fe4a4
+  languageName: node
+  linkType: hard
+
 "@angular/router@npm:^21.2.0":
   version: 21.2.26
   resolution: "@angular/router@npm:21.2.26"
@@ -435,6 +451,20 @@ __metadata:
     "@angular/platform-browser": 21.2.26
     rxjs: ^6.5.3 || ^7.4.0
   checksum: 10c0/89c1c361fdfbb6f9d1428c6c8f9e08df85c82beeea4797f3a0e67c33721d8067d7dca9079cd75d578dd6511b0ec45ad0de48a80e226386007811f2460808763a
+  languageName: node
+  linkType: hard
+
+"@angular/service-worker@npm:^21.2.0":
+  version: 21.2.26
+  resolution: "@angular/service-worker@npm:21.2.26"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    "@angular/core": 21.2.26
+    rxjs: ^6.5.3 || ^7.4.0
+  bin:
+    ngsw-config: ngsw-config.js
+  checksum: 10c0/a9cb7bf82949845040dce574acd94bb99433c3cbd4d5baae6f5f59db43f01e84b88b9099c21dcf2aa0c39da0c1e06d6223864c539135182d0faae28c0a60fce0
   languageName: node
   linkType: hard
 
@@ -5888,7 +5918,9 @@ __metadata:
     "@angular/core": "npm:^21.2.0"
     "@angular/forms": "npm:^21.2.0"
     "@angular/platform-browser": "npm:^21.2.0"
+    "@angular/pwa": "npm:^21.2.29"
     "@angular/router": "npm:^21.2.0"
+    "@angular/service-worker": "npm:^21.2.0"
     jsdom: "npm:^28.0.0"
     prettier: "npm:^3.8.1"
     rxjs: "npm:~7.8.0"
