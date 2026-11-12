@@ -1,0 +1,8 @@
+{
+  "name": "tesla-pwa",
+  "compatibility_date": "2026-11-11",
+  "assets": {
+    "directory": "./dist/tesla-pwa/browser",
+    "not_found_handling": "single-page-application"
+  }
+}
