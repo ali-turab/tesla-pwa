@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "node scripts/configure-app.mjs --prepare && ng serve",
+    "build": "node scripts/configure-app.mjs --prepare && ng build && node scripts/configure-app.mjs --finalize",
+    "watch": "node scripts/configure-app.mjs --prepare && ng build --watch --configuration development",
+    "test": "node scripts/configure-app.mjs --prepare && ng test"
   },
   "private": true,
   "packageManager": "yarn@4.14.1",
